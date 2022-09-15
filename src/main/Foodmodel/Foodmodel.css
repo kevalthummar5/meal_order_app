@@ -1,0 +1,66 @@
+.cover {
+  position: relative;
+}
+
+.Foodmodel {
+  position: absolute;
+  top: 30vh;
+  left: 25vw;
+  margin: auto;
+  z-index: 6;
+
+  width: 50vw;
+  padding: 20px;
+  overflow: hidden;
+  border-radius: 40px;
+  color: rgb(94, 94, 94);
+  font-weight: 600;
+  background-color: white;
+  /* border: 2px solid red; */
+}
+.backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  height: 130vh;
+  width: 100%;
+  z-index: 5;
+
+  background-color: rgba(1, 1, 1, 0.77);
+  /* border: 2px solid red; */
+}
+.Foodmodeltotal {
+  padding: 2px 15px;
+  display: flex;
+  color: black;
+  justify-content: space-between;
+}
+.Foodmodelbtnarea {
+  display: flex;
+
+  justify-content: end;
+  /* border: 2px solid darkblue; */
+  /* margin-left: 20vw; */
+}
+.Foodmodelbtn {
+  border-radius: 15px;
+  margin: 5px 10px;
+  padding: 5px 12px;
+  border: transparent;
+  color: white;
+}
+.btncl {
+  background-color: rgb(225, 64, 64);
+}
+.btncl:hover {
+  background-color: rgb(98, 31, 31);
+  cursor: pointer;
+}
+.btnodr {
+  background-color: rgb(11, 190, 11);
+}
+.btnodr:hover {
+  background-color: rgb(2, 87, 2);
+  cursor: pointer;
+}

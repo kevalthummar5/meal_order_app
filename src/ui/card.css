@@ -1,0 +1,10 @@
+.Card {
+  border-radius: 50px;
+
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.384);
+  /* width: fit-content; */
+  /* height: auto; */
+  min-height: fit-content;
+  transition-property: all;
+  transition-duration: 2s;
+}

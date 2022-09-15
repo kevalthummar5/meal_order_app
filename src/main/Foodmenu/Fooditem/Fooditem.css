@@ -1,0 +1,36 @@
+.Fooditem {
+  border-bottom: 2px solid grey;
+  display: flex;
+  padding: 2px 10px;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.Fooditemarea {
+  text-align: start;
+}
+.Fooditemhisab {
+  padding: 10px 0 2px 0;
+}
+.Fooditemadd {
+  display: block;
+  border-radius: 15px;
+  padding: 5px 20px;
+  color: aliceblue;
+  border: transparent;
+  background-color: brown;
+  margin: 20px auto 10px auto;
+}
+.Fooditemadd:hover {
+  background-color: red;
+  cursor: pointer;
+}
+.Fooditemadd:active {
+  background-color: green;
+}
+
+.Fooditeminput {
+  width: 40px;
+}
+.Fooditemamount {
+  color: red;
+}

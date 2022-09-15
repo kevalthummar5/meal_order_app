@@ -1,0 +1,10 @@
+.ftr {
+  display: inline-block;
+  padding-right: 10px;
+  width: 100%;
+  text-align: end;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  background-color: aliceblue;
+  color: rgba(75, 82, 95, 0.797);
+}

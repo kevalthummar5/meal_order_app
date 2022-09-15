@@ -1,0 +1,17 @@
+.Main {
+  background-color: rgba(108, 132, 126, 0.329);
+  color: #f5f5dc;
+  min-height: 83vh;
+  padding-top: 9vh;
+  /* opacity: 0.5; */
+  /* filter: blur(8px); */
+  height: fit-content;
+  display: flex;
+  background: url("../Image/mainbackground.jpg");
+  /* background-size: cover; */
+  background-size: 100vw 100vh;
+  /* background-position: top; */
+  background-repeat: no-repeat;
+  /* background: cover; */
+  flex-direction: column;
+}

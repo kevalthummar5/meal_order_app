@@ -1,0 +1,64 @@
+.Orderitem {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: row;
+
+  margin: 15px 50px;
+  padding: 5px 20px;
+  align-items: center;
+  border-radius: 30px;
+  background-color: #ff4949;
+  transition: all 0.5s;
+}
+.Orderitem:hover {
+  cursor: pointer;
+  box-shadow: inset 0 0 10px;
+}
+.Orderitemdes {
+  margin: 0px 20px;
+}
+.Orderitemnumber {
+  background-color: #4a0a0a;
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: 1px solid rgb(246, 211, 211);
+  font-size: 0.9rem;
+  box-shadow: inset 0 0 10px rgb(246, 211, 211);
+}
+.Orderitemicon {
+  animation-delay: 3s;
+  animation-name: iconrotate;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+.Orderitemicon:hover {
+  color: lawngreen;
+  cursor: pointer;
+}
+.Orderitemicon:active {
+  color: blue;
+}
+@keyframes iconrotate {
+  0% {
+  }
+  10% {
+    rotate: -10deg;
+    color: aqua;
+  }
+  25% {
+    rotate: -120deg;
+    scale: 1.2;
+  }
+  50% {
+    color: lawngreen;
+    rotate: -300deg;
+
+    opacity: 1;
+  }
+  100% {
+    rotate: -360deg;
+    opacity: 0;
+  }
+}

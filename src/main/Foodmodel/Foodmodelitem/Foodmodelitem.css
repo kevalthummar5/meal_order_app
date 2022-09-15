@@ -1,0 +1,46 @@
+.Foodmodelitem {
+  position: relative;
+  border-bottom: 2px solid grey;
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  color: black;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.Foodmodelitemarea {
+  text-align: start;
+}
+.Foodmodelitemhisab {
+  padding: 10px 0 2px 0;
+}
+.Foodmodelitemset {
+  border-radius: 5px;
+  padding: 3px 10px;
+  color: aliceblue;
+  border: transparent;
+  background-color: gray;
+  margin: 10px;
+}
+.Foodmodelitemset:hover {
+  background-color: red;
+  cursor: pointer;
+}
+.Foodmodelitemset:active {
+  background-color: green;
+}
+
+.Foodmodelitemnumber {
+  border: 1.5px solid rgba(128, 128, 128, 0.605);
+  margin: 5px 40px;
+  padding: 2px 5px;
+  border-radius: 8px;
+  font-size: 0.7rem;
+}
+.Foodmodelitemamount {
+  color: red;
+  display: inline;
+}
+.Foodmodelitemhead {
+  margin-bottom: 10px;
+}
